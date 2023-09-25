@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #361717;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #1bc3a7;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0497aa;
+  color: white;
+}
+
+.center-button {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  background-color: rgb(194, 153, 76);
+  color: white;
+  padding: 20px 30px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.center-button:hover {
+  background-color: orange;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <h3 style="float: left; color: #f9f6f6; font-style:oblique;font-family: cursive;font-size: 20px"> Fashion Feet</h3>
+  <a href="loginpage.html">Logout</a>
+  <a href="cart.html">Cart</a>
+  <a href="product.html">Product</a>
+  <a class="active" href="home.html">Home</a>
+</div>
+
+<div>
+  <img src="https://novacolorpaint.com/cdn/shop/articles/painting_shoes-2.jpg?v=1640764219" style="width:100%;height: 10%;">
+  <div class="center-button-container">
+    <form action="product.html" method="get">
+      <button class="center-button" type="submit">Shop Now</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
